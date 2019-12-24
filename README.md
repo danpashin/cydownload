@@ -7,13 +7,13 @@ Tested and working builds on:
 
 # Building and running
 
-## Linux
-`git clone https://github.com/borishonman/cydownload.git`
+## Linux/macOS
 
-`cd cydownload`
-
-`qmake cydownload.pro`
-
-`make`
+```
+git clone https://github.com/danpashin/cydownload.git
+cd cydownload && mkdir build && cd build
+qmake ../cydownload.pro
+make
+```
 
 Type `./cydownload` to run.
